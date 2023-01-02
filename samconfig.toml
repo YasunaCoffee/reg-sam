@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "reg-sam"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1k6jegprjnmi4"
+s3_prefix = "reg-sam"
+region = "ap-northeast-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["HelloWorldFunction=186344966105.dkr.ecr.ap-northeast-1.amazonaws.com/regsam01a754fe/helloworldfunction19d43fc4repo"]
